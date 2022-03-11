@@ -114,7 +114,7 @@ public class DictGenerator {
 //        }
         int tmp = ints[from];
         ints[from] = ints[to];
-        ints[to] = ints[from];
+        ints[to] = tmp;
     }
 
 //    -l 1 -i /Users/fjyulu/Documents/_202112082248046597f.gif -o /Users/fjyulu/Desktop/check/dd -h
